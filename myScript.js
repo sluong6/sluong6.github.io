@@ -7,12 +7,12 @@ for (i = 0; i < coll.length; i++) {
     var content = this.nextElementSibling;
     if (content.style.display === "block") {
       content.style.display = "none";
-      this.innerHTML = "Read abstract";
+      this.innerHTML = "Read summary";
       this.setAttribute("icon-name", "keyboard_arrow_down");
 
     } else {
       content.style.display = "block";
-      this.innerHTML = "Fold abstract";
+      this.innerHTML = "Fold summary";
       this.setAttribute("icon-name", "keyboard_arrow_up");
 
     }
