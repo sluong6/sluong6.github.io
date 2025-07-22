@@ -226,7 +226,7 @@ color: #990033;
 .collapsible:hover{
 text-decoration: underline;
 }
-.abstract{
+.summary{
   display:none;
   border: none;
   color: #3a3a3a;
