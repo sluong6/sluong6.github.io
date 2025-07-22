@@ -90,38 +90,38 @@ section h3{
 
 }
 
-.header::after {
-  content: "\a0";
-  display: block;
-  width:100%;
-  height:0;
-  margin: 0 15px;
-  border-bottom: 1px solid #B5B5B5;
+
+
+
+
+.site-footer {
+  width: 100%;
+  background-color: #fff; /* or any footer bg */
+  padding: 15px 0;
+  position: relative;
+  text-align: center;
 }
 
-.footer .col {
-  display: flex;
-  justify-content: center;
-
-}
-.footer::before{
-  content: "\a0";
-  display: block;
-  width:100%;
-  height:0;
-  margin: 0 15px;
-  border-top: 1px solid #B5B5B5;
-}
-
-.footer-content{
+.footer-content {
   font-family: 'Chivo', sans-serif;
   font-size: 14px;
-  text-align: center;
   line-height: 20px;
   font-weight: 300;
   padding-top: 7px;
   margin-bottom: 75px;
 }
+
+.footer-divider {
+  border-top: 1px solid #B5B5B5;
+  width: 100%;
+  margin: 0 auto 10px auto;
+}
+
+
+
+
+
+
 .asu-logo {
   margin-top: 51px;
 }
